@@ -28,7 +28,25 @@ TreeCNN showed interesting generalization behavior despite lower validation accu
 - Data augmentation significantly improves generalization
 
 ## Repository Structure
-(brief structure)
+fruit-freshness-classifier/
+├── notebooks/
+│   └── fruit_classifier_rnd.ipynb
+│
+├── src/
+│   ├── model.py
+│   ├── dataset.py
+│   ├── augmentations.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── inference.py
+│
+├── models/
+│   └── model1.pth
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 
 ## Future Work Scope
 - Transfer learning
