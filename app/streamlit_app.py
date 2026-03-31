@@ -4,7 +4,7 @@ import requests
 st.title("🍎 Fruit Freshness Classifier")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png"])
-API_URL = "https://your-fastapi-service.onrender.com/predict"
+API_URL = "https://fruit-freshness-classifier.onrender.com/predict"
 if uploaded_file is not None:
     st.image(uploaded_file, caption="Uploaded Image")
 
