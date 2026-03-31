@@ -19,7 +19,7 @@ with open("classes.json") as f:
 #Loading the model
 device = torch.device("cpu")
 model = TreeCnn2()
-model.load_state_dict(torch.load("model_path", map_location=device))
+model.load_state_dict(torch.load("models/treeCnn2.pth", map_location=device))
 model.eval()
 
 @app.post("/predict")
